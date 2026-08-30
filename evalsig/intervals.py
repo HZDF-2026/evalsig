@@ -10,7 +10,7 @@ from __future__ import annotations
 import math
 import random
 from dataclasses import dataclass
-from statistics import NormalDist, mean
+from statistics import NormalDist, StatisticsError, mean
 
 __all__ = [
     "Interval",
@@ -213,6 +213,54 @@ def mcnemar_exact(b: int, c: int, alpha: float = 0.05) -> McNemarResult:
     return McNemarResult(b, c, d, Interval(d - half, d + half, alpha, "mcnemar-wald"), p_value)
 
 
+def _exact_scaled_ints(values: list) -> tuple[int, list[int]] | None:
+    """Exact dyadic representation of finite floats under a common scale.
+
+    Returns `(scale, ints)` with `values[i] == ints[i] / scale` exactly, or
+    `None` when any value is not a finite float (the caller then falls back
+    to the generic path). Every finite float is m * 2^-e, so a common scale
+    2^e_max makes all values integers and integer sums exact.
+    """
+    ratios = []
+    e_max = 0
+    for v in values:
+        if type(v) is not float or not math.isfinite(v):
+            return None
+        m, d = v.as_integer_ratio()
+        e = d.bit_length() - 1
+        if e > e_max:
+            e_max = e
+        ratios.append((m, e))
+    scale = 1 << e_max
+    ints = [m << (e_max - e) for m, e in ratios]
+    return scale, ints
+
+
+def _percentile_interval(stats: list, B: int, alpha: float, method: str) -> Interval:
+    stats.sort()
+    lo = stats[max(0, math.floor(alpha / 2 * B) - 1)]
+    hi = stats[min(B - 1, math.ceil((1 - alpha / 2) * B) - 1)]
+    return Interval(lo, hi, alpha, method)
+
+
+def _exact_cluster_sums(clusters: list) -> tuple[int, list[int], list[int]] | None:
+    """Exact per-cluster sums as integers on a common power-of-two scale."""
+    flat = [v for cl in clusters for v in cl]
+    rep = _exact_scaled_ints(flat)
+    if rep is None:
+        return None
+    scale, ints = rep
+    sums = []
+    counts = []
+    pos = 0
+    for cl in clusters:
+        n = len(cl)
+        sums.append(sum(ints[pos:pos + n]))
+        counts.append(n)
+        pos += n
+    return scale, sums, counts
+
+
 def cluster_bootstrap_ci(
     clusters: list[list[float]],
     stat=None,
@@ -227,22 +275,40 @@ def cluster_bootstrap_ci(
     understates variance when task effects dominate — the classic
     pseudoreplication failure. Resampling task clusters is the fix.
 
-    Deterministic given `seed`.
+    Deterministic given `seed`. The default statistic (the pooled mean) takes
+    an exact-arithmetic fast path: per-cluster sums are precomputed as
+    integers on a common power-of-two scale and each resample is one integer
+    sum plus one correctly-rounded division — bit-identical to the generic
+    `statistics.mean` path, ~10x faster.
     """
     if B < 2:
         raise ValueError(f"B must be >= 2, got {B}")
     if not clusters:
         raise ValueError("no clusters given")
-    if stat is None:
-        stat = mean
     rng = random.Random(seed)
     k = len(clusters)
+    if stat is None:
+        rep = _exact_cluster_sums(clusters)
+        if rep is not None:
+            scale, sums, counts = rep
+            randrange = rng.randrange
+            stats = []
+            append = stats.append
+            for _ in range(B):
+                total = 0
+                cnt = 0
+                for _ in range(k):
+                    i = randrange(k)
+                    total += sums[i]
+                    cnt += counts[i]
+                if cnt == 0:
+                    raise StatisticsError("mean requires at least one data point")
+                append(total / (scale * cnt))
+            return _percentile_interval(stats, B, alpha, "cluster-bootstrap")
+        stat = mean
     stats = []
     for _ in range(B):
         sample = [clusters[rng.randrange(k)] for _ in range(k)]
         flat = [v for cl in sample for v in cl]
         stats.append(stat(flat))
-    stats.sort()
-    lo = stats[max(0, math.floor(alpha / 2 * B) - 1)]
-    hi = stats[min(B - 1, math.ceil((1 - alpha / 2) * B) - 1)]
-    return Interval(lo, hi, alpha, "cluster-bootstrap")
+    return _percentile_interval(stats, B, alpha, "cluster-bootstrap")

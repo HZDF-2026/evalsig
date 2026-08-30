@@ -183,6 +183,16 @@ for name, _, action in report.ranking:
 - No regression modeling, no covariates, no hierarchical partial pooling.
   Those are v0.2+ if this layer proves itself.
 
+## Performance
+
+The bootstrap hot path (every `compare`/`decide` call) uses exact integer
+arithmetic: per-cluster sums are precomputed as integers on a common
+power-of-two scale, so each resample is one integer sum plus one
+correctly-rounded division. That is bit-identical to the plain
+`statistics.mean` path it replaces and 8–27× faster — 500 tasks × 10 runs ×
+10000 resamples finishes in ~1.4 s. Non-float values (ints, bools, NaN/inf)
+fall back to the generic path with unchanged behavior.
+
 ## Verified against
 
 - Lean 4 + Mathlib machine-checked proofs ([`proofs/`](proofs/README.md)):

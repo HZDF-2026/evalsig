@@ -14,7 +14,7 @@ import random
 from dataclasses import dataclass, field
 from statistics import NormalDist, mean, stdev
 
-from .intervals import Interval, cluster_bootstrap_ci, mcnemar_exact, two_proportion_test
+from .intervals import Interval, _exact_scaled_ints, cluster_bootstrap_ci, mcnemar_exact, two_proportion_test
 from .power import n_paired, n_two_proportions
 from .variance import _outcome
 
@@ -183,11 +183,29 @@ def _diff_bootstrap(ta: dict, tb: dict, alpha: float) -> Interval:
     rng = random.Random(2)
     ma = [mean(v) for v in ta.values()]
     mb = [mean(v) for v in tb.values()]
-    stats = []
-    for _ in range(2000):
-        sa = [ma[rng.randrange(len(ma))] for _ in ma]
-        sb = [mb[rng.randrange(len(mb))] for _ in mb]
-        stats.append(mean(sa) - mean(sb))
+    rep_a = _exact_scaled_ints(ma)
+    rep_b = _exact_scaled_ints(mb)
+    if rep_a is not None and rep_b is not None:
+        # exact-arithmetic fast path, bit-identical to statistics.mean below
+        (scale_a, ints_a), (scale_b, ints_b) = rep_a, rep_b
+        ka, kb = len(ma), len(mb)
+        randrange = rng.randrange
+        stats = []
+        append = stats.append
+        for _ in range(2000):
+            total_a = 0
+            for _ in range(ka):
+                total_a += ints_a[randrange(ka)]
+            total_b = 0
+            for _ in range(kb):
+                total_b += ints_b[randrange(kb)]
+            append(total_a / (scale_a * ka) - total_b / (scale_b * kb))
+    else:
+        stats = []
+        for _ in range(2000):
+            sa = [ma[rng.randrange(len(ma))] for _ in ma]
+            sb = [mb[rng.randrange(len(mb))] for _ in mb]
+            stats.append(mean(sa) - mean(sb))
     stats.sort()
     lo = stats[max(0, int(alpha / 2 * 2000) - 1)]
     hi = stats[min(1999, int((1 - alpha / 2) * 2000) - 1)]
