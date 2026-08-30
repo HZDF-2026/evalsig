@@ -1,0 +1,21 @@
+[project]
+name = "evalsig"
+version = "0.1.0"
+description = "Error bars and honest decisions for LLM/agent evaluation: Wilson/McNemar/cluster-bootstrap statistics, power analysis, sequential stopping, Holm-corrected candidate elimination."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Shijing Ge" }]
+keywords = ["llm", "evaluation", "agent", "statistics", "benchmark", "significance", "error-bars"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.scripts]
+evalsig = "evalsig.cli:main"
+
+[tool.setuptools]
+packages = ["evalsig"]

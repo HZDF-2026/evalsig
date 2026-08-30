@@ -1,0 +1,6302 @@
+[
+ {
+  "task": "GH-0000",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0001",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0002",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0003",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0004",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0005",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0006",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0007",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0008",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0009",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0010",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0011",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0012",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0013",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0014",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0015",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0016",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0017",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0018",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0019",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0020",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0021",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0022",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0023",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0024",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0025",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0026",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0027",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0028",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0029",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0030",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0031",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0032",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0033",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0034",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0035",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0036",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0037",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0038",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0039",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0040",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0041",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0042",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0043",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0044",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0045",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0046",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0047",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0048",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0049",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0050",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0051",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0052",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0053",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0054",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0055",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0056",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0057",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0058",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0059",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0060",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0061",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0062",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0063",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0064",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0065",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0066",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0067",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0068",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0069",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0070",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0071",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0072",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0073",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0074",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0075",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0076",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0077",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0078",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0079",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0080",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0081",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0082",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0083",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0084",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0085",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0086",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0087",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0088",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0089",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0090",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0091",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0092",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0093",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0094",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0095",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0096",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0097",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0098",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0099",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0100",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0101",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0102",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0103",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0104",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0105",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0106",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0107",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0108",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0109",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0110",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0111",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0112",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0113",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0114",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0115",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0116",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0117",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0118",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0119",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0120",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0121",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0122",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0123",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0124",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0125",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0126",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0127",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0128",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0129",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0130",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0131",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0132",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0133",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0134",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0135",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0136",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0137",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0138",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0139",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0140",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0141",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0142",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0143",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0144",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0145",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0146",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0147",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0148",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0149",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 0,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0000",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0001",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0002",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0003",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0004",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0005",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0006",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0007",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0008",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0009",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0010",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0011",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0012",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0013",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0014",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0015",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0016",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0017",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0018",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0019",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0020",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0021",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0022",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0023",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0024",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0025",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0026",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0027",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0028",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0029",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0030",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0031",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0032",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0033",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0034",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0035",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0036",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0037",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0038",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0039",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0040",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0041",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0042",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0043",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0044",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0045",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0046",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0047",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0048",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0049",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0050",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0051",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0052",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0053",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0054",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0055",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0056",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0057",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0058",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0059",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0060",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0061",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0062",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0063",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0064",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0065",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0066",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0067",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0068",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0069",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0070",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0071",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0072",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0073",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0074",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0075",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0076",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0077",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0078",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0079",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0080",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0081",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0082",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0083",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0084",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0085",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0086",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0087",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0088",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0089",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0090",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0091",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0092",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0093",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0094",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0095",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0096",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0097",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0098",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0099",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0100",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0101",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0102",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0103",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0104",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0105",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0106",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0107",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0108",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0109",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0110",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0111",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0112",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0113",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0114",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0115",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0116",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0117",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0118",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0119",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0120",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0121",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0122",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0123",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0124",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0125",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0126",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0127",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0128",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0129",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0130",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0131",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0132",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0133",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0134",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0135",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0136",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0137",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0138",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0139",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0140",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0141",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0142",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0143",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0144",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0145",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0146",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0147",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0148",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0149",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 1,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0000",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0001",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0002",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0003",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0004",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0005",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0006",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0007",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0008",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0009",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0010",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0011",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0012",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0013",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0014",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0015",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0016",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0017",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0018",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0019",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0020",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0021",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0022",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0023",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0024",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0025",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0026",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0027",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0028",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0029",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0030",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0031",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0032",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0033",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0034",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0035",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0036",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0037",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0038",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0039",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0040",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0041",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0042",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0043",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0044",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0045",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0046",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0047",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0048",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0049",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0050",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0051",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0052",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0053",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0054",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0055",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0056",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0057",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0058",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0059",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0060",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0061",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0062",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0063",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0064",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0065",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0066",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0067",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0068",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0069",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0070",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0071",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0072",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0073",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0074",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0075",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0076",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0077",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0078",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0079",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0080",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0081",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0082",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0083",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0084",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0085",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0086",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0087",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0088",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0089",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0090",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0091",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0092",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0093",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0094",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0095",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0096",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0097",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0098",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0099",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0100",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0101",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0102",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0103",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0104",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0105",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0106",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0107",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0108",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0109",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0110",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0111",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0112",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0113",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0114",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0115",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0116",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0117",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0118",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0119",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0120",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0121",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0122",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0123",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0124",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0125",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0126",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0127",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0128",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0129",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0130",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0131",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0132",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0133",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0134",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0135",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0136",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0137",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0138",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0139",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0140",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0141",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0142",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0143",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0144",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0145",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0146",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0147",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0148",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0149",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 2,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0000",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0001",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0002",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0003",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0004",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0005",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0006",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0007",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0008",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0009",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0010",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0011",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0012",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0013",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0014",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0015",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0016",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0017",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0018",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0019",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0020",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0021",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0022",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0023",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0024",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0025",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0026",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0027",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0028",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0029",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0030",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0031",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0032",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0033",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0034",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0035",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0036",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0037",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0038",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0039",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0040",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0041",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0042",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0043",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0044",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0045",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0046",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0047",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0048",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0049",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0050",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0051",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0052",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0053",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0054",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0055",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0056",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0057",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0058",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0059",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0060",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0061",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0062",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0063",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0064",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0065",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0066",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0067",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0068",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0069",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0070",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0071",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0072",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0073",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0074",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0075",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0076",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0077",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0078",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0079",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0080",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0081",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0082",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0083",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0084",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0085",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0086",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0087",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0088",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0089",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0090",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0091",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0092",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0093",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0094",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0095",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0096",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0097",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0098",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0099",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0100",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0101",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0102",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0103",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0104",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0105",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0106",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0107",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0108",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0109",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0110",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0111",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0112",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0113",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0114",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0115",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0116",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0117",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0118",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0119",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0120",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0121",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0122",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0123",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0124",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0125",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0126",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0127",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0128",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0129",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0130",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0131",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0132",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0133",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0134",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0135",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0136",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0137",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0138",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0139",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0140",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0141",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0142",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0143",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0144",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0145",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0146",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0147",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0148",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0149",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 3,
+  "engine": "vllm-0.8"
+ },
+ {
+  "task": "GH-0000",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0001",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0002",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0003",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0004",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0005",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0006",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0007",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0008",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0009",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0010",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0011",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0012",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0013",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0014",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0015",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0016",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0017",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0018",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0019",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0020",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0021",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0022",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0023",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0024",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0025",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0026",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0027",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0028",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0029",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0030",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0031",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0032",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0033",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0034",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0035",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0036",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0037",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0038",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0039",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0040",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0041",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0042",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0043",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0044",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0045",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0046",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0047",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0048",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0049",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0050",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0051",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0052",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0053",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0054",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0055",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0056",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0057",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0058",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0059",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0060",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0061",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0062",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0063",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0064",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0065",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0066",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0067",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0068",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0069",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0070",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0071",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0072",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0073",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0074",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0075",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0076",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0077",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0078",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0079",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0080",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0081",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0082",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0083",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0084",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0085",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0086",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0087",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0088",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0089",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0090",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0091",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0092",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0093",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0094",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0095",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0096",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0097",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0098",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0099",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0100",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0101",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0102",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0103",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0104",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0105",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0106",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0107",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0108",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0109",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0110",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0111",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0112",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0113",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0114",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0115",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0116",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0117",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0118",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0119",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0120",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0121",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0122",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0123",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0124",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0125",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0126",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0127",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0128",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0129",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0130",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0131",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0132",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0133",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0134",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0135",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0136",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0137",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0138",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0139",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0140",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0141",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0142",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0143",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0144",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0145",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0146",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0147",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0148",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0149",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 4,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0000",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0001",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0002",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0003",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0004",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0005",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0006",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0007",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0008",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0009",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0010",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0011",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0012",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0013",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0014",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0015",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0016",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0017",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0018",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0019",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0020",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0021",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0022",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0023",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0024",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0025",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0026",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0027",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0028",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0029",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0030",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0031",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0032",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0033",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0034",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0035",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0036",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0037",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0038",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0039",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0040",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0041",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0042",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0043",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0044",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0045",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0046",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0047",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0048",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0049",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0050",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0051",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0052",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0053",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0054",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0055",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0056",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0057",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0058",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0059",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0060",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0061",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0062",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0063",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0064",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0065",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0066",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0067",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0068",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0069",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0070",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0071",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0072",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0073",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0074",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0075",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0076",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0077",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0078",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0079",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0080",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0081",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0082",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0083",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0084",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0085",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0086",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0087",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0088",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0089",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0090",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0091",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0092",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0093",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0094",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0095",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0096",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0097",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0098",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0099",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0100",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0101",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0102",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0103",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0104",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0105",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0106",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0107",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0108",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0109",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0110",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0111",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0112",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0113",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0114",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0115",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0116",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0117",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0118",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0119",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0120",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0121",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0122",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0123",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0124",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0125",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0126",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0127",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0128",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0129",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0130",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0131",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0132",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0133",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0134",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0135",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0136",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0137",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0138",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0139",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0140",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0141",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0142",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0143",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0144",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0145",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0146",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0147",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0148",
+  "success": 0,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ },
+ {
+  "task": "GH-0149",
+  "success": 1,
+  "version": "harness-v2",
+  "seed": 5,
+  "engine": "sglang-0.4"
+ }
+]
