@@ -185,6 +185,13 @@ for name, _, action in report.ranking:
 
 ## Verified against
 
+- Lean 4 + Mathlib machine-checked proofs ([`proofs/`](proofs/README.md)):
+  the Wilson interval never needs its [0, 1] clamp (endpoints proved in
+  bounds), always covers the sample proportion, and the closed form is
+  *exactly* the quadratic-root derivation — the dual-derivation cross-check
+  below is a theorem, not a coincidence. The McNemar variance is proved
+  nonnegative for all count inputs and the paired difference stays in
+  [−1, 1]. 0 errors / 0 warnings / 0 sorry.
 - 43 unit tests: hand-computed reference values (Wilson 50/100, McNemar
   22/1024, Holm adjustment, power n=1565/942/1537, random-effects ICC on a
   worked ANOVA example), plus dual-derivation cross-checks (Wilson closed
