@@ -29,12 +29,44 @@ it is what your harness should call before it believes its own numbers.
 | `evalsig decide` | Rank N candidates, eliminate only the statistically worse ones (Holm-corrected) |
 | `evalsig seq` | Stop the run when the *numbers* justify stopping, not the budget |
 
-Zero dependencies. Python ≥ 3.9, stdlib only. Deterministic given seeds.
+Zero dependencies. Python ≥ 3.9, stdlib only — or one static binary (pure Go).
+Deterministic given seeds.
+
+## Install
+
+**Python** (stdlib only, ≥ 3.9):
+
+```bash
+git clone https://github.com/HZDF-2026/evalsig && cd evalsig
+python -m evalsig plan --baseline 0.55 --delta 0.05
+```
+
+**Single static binary** — the full CLI ported to pure Go: same commands, same
+flags, same output. ~1 MB, no runtime, no dependencies.
+
+| OS | Arch | Artifact |
+|---|---|---|
+| Windows | amd64 / arm64 / 386 | `evalsig-windows-<arch>.zip` |
+| macOS | amd64 (Intel) / arm64 (Apple silicon) | `evalsig-darwin-<arch>.tar.gz` |
+| Linux | amd64 / arm64 / 386 / armv7 | `evalsig-linux-<arch>.tar.gz` |
+
+Download from [releases](https://github.com/HZDF-2026/evalsig/releases) and
+verify against the shipped `checksums.txt` (SHA-256), or build from source:
+
+```bash
+go install github.com/HZDF-2026/evalsig/cmd/evalsig@latest
+evalsig plan --baseline 0.55 --delta 0.05
+```
+
+For sandboxes, containers, CI, and agents that can run a binary but not an
+interpreter — and for startup latency: ~15 ms per invocation vs ~113 ms for
+CPython on the same machine. Output is byte-identical to the Python CLI except
+the last digits of p-values, where platform C runtimes and Go's math library
+disagree by 1–2 ulp (details in [The Go port](#the-go-port)).
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/HZDF-2026/evalsig && cd evalsig
 python examples/make_examples.py          # seeded, reproducible demo data
 
 python -m evalsig plan --baseline 0.55 --delta 0.05
@@ -56,7 +88,7 @@ python -m evalsig compare examples/swe_ab/a.json examples/swe_ab/b.json \
 ```
 
 ```
-harness-v2 vs harness-v1: +0.1078 CI [+0.0689, +0.1444] (cluster-bootstrap, 95%)
+harness-v2 vs harness-v1: +0.1078 CI [+0.0733, +0.1456] (cluster-bootstrap, 95%)
 p=3.778e-07 [mcnemar (b=81, c=28)/paired] -> A-BETTER, ~342 more runs to resolve
 ```
 
@@ -183,6 +215,40 @@ for name, _, action in report.ranking:
 - No regression modeling, no covariates, no hierarchical partial pooling.
   Those are v0.2+ if this layer proves itself.
 
+## The Go port
+
+`cmd/evalsig` is a complete second implementation of the CLI in Go, built for
+where Python does not reach: sandboxes without an interpreter, init containers,
+CI, and agent environments where shipping one static file beats shipping a
+runtime. It is not a wrapper around the Python — it is a reimplementation
+validated against it:
+
+- **Frozen reference table.** `tests/gen_ref_tables.py` runs the Python
+  implementation over ~2,300 cases chosen at the edges — p=0/1, all-success
+  and all-fail sets, single tasks, ties, unbalanced groups, extreme alphas —
+  and freezes the results in `tests/refdata/core.json`. The Go tests replay
+  the table and assert **bit-for-bit equality** for everything computed in
+  pure IEEE arithmetic, exact rational arithmetic (binomial CDF), or MT19937:
+  intervals, tests, power, variance, sequential, decide — plus CPython-faithful
+  `repr()` float formatting and `json.dumps` output (indentation, key order,
+  int-vs-float distinction).
+- **A tolerance model with a reason, not a fudge.** CPython delegates
+  `math.log`/`math.erf` to the platform C runtime (UCRT on Windows, glibc
+  elsewhere), and each rounds differently from Go's fdlibm port — 1–2 ulp on
+  roughly a quarter of inputs. So `normInvCDF` lands within a few ulp and
+  tail p-values (`2·(1−cdf)`) within an absolute 1e-15; those two comparisons
+  use that documented tolerance, everything else is exact. CGO is disabled,
+  so the binary's results are independent of the host's C runtime as well.
+- **Differential CLI tests.** 43 argparse-surface cases plus 163 randomized
+  cases — random run sets across binary/score outcomes, task counts,
+  multiplicities, factor value types, and task-overlap ratios straddling the
+  paired/unpaired detection threshold — replayed through both CLIs, requiring
+  identical stdout, stderr, and exit codes.
+
+Both implementations make the same design decisions: exact-integer bootstrap
+resampling, insertion-ordered JSON, seeded MT19937, sorted canonical order
+wherever set iteration would otherwise leak hash randomization.
+
 ## Performance
 
 The bootstrap hot path (every `compare`/`decide` call) uses exact integer
@@ -208,6 +274,11 @@ fall back to the generic path with unchanged behavior.
   form vs quadratic roots).
 - Seeded end-to-end examples with known ground-truth effects (see
   `examples/make_examples.py`).
+- Cross-implementation differential validation for the Go port: the frozen
+  ~2,300-case reference table replayed with bit-for-bit equality on all
+  pure-arithmetic sections (`tests/refdata/core.json`, see
+  [The Go port](#the-go-port)), plus 43 + 163 differential CLI cases comparing
+  stdout, stderr, and exit codes between the two implementations.
 
 ## Roadmap
 
