@@ -48,7 +48,9 @@ def variance_components(groups: dict) -> VarianceComponents:
     a = len(cleaned)
     N = sum(sizes)
     if a < 2:
-        return VarianceComponents(0.0, _m_within(cleaned, N, a), 0.0, 0.0, a, N, tuple(sizes))
+        # single group: all variance is within, none between
+        msw = _m_within(cleaned, N, a)
+        return VarianceComponents(0.0, msw, msw, 0.0, a, N, tuple(sizes))
     grand = mean([v for vals in cleaned.values() for v in vals])
     ssb = sum(len(vals) * (mean(vals) - grand) ** 2 for vals in cleaned.values())
     msb = ssb / (a - 1)

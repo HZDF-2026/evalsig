@@ -62,6 +62,26 @@ def main():
         json.dump(cands, f, indent=1)
     print(f"examples/candidates.json: 4 candidates, {n_tasks} tasks each")
 
+    # disjoint task sets: an unpaired A/B (no overlap -> two-proportion z path).
+    # Own seed so this block never perturbs the frozen data above.
+    ur = random.Random(43)
+    for name, path, shift, tasks in [
+        ("unpaired-A", "examples/unpaired_a.json", 0.10, 120),
+        ("unpaired-B", "examples/unpaired_b.json", -0.08, 130),
+    ]:
+        runs = []
+        for i in range(tasks):
+            diff = ur.random()
+            p = min(0.95, max(0.05, 0.15 + 0.85 * diff + shift))
+            runs.append({
+                "task": f"{name[8:].lower()}{i:03d}",
+                "success": 1 if ur.random() < p else 0,
+                "version": name,
+            })
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(runs, f, indent=1)
+        print(f"{path}: n={len(runs)} tasks={tasks}")
+
 
 if __name__ == "__main__":
     main()

@@ -35,8 +35,9 @@ def cmd_plan(args) -> int:
         paired = n_paired(args.discordance, args.delta, args.alpha, args.power)
         print(f"  paired   (same task set, discordance={args.discordance}): {paired.n_per_version} tasks total")
         print("  -> reusing one task set is typically 3-10x cheaper; always pair when you can")
-    w = n_for_ci_width(args.width, args.baseline if 0 <= args.baseline <= 1 else 0.5, args.alpha)
-    print(f"  to get CI width {args.width:.2f} at p~{args.baseline}: {w.n_per_version} runs")
+    p_eff = args.baseline if 0 <= args.baseline <= 1 else 0.5
+    w = n_for_ci_width(args.width, p_eff, args.alpha)
+    print(f"  to get CI width {args.width:.2f} at p~{p_eff}: {w.n_per_version} runs")
     return 0
 
 

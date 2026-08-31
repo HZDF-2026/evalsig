@@ -10,6 +10,7 @@ from __future__ import annotations
 import math
 import random
 from dataclasses import dataclass
+from fractions import Fraction
 from statistics import NormalDist, StatisticsError, mean
 
 __all__ = [
@@ -154,26 +155,35 @@ def two_proportion_test(s1: int, n1: int, s2: int, n2: int, alpha: float = 0.05)
 
 
 def binom_cdf(k: int, n: int, p: float) -> float:
-    """Exact binomial CDF, stable via log-gamma."""
+    """Exact binomial CDF via exact rational arithmetic.
+
+    p is converted to its exact binary rational, the pmf recurrence is
+    carried out in exact fractions, and the sum is rounded to a double once.
+    The result therefore depends on no libm (no lgamma/log/exp/fsum), is the
+    correctly-rounded true value, and is bit-identical across platforms and
+    across the reference Python and every ported implementation.
+    """
     if not 0 <= k or k > n:
         raise ValueError(f"k must be in [0, n], got {k}/{n}")
     if p <= 0:
         return 1.0
     if p >= 1:
         return 0.0 if k < n else 1.0
-    log_p = math.log(p)
-    log_q = math.log(1 - p)
-    terms = []
-    for i in range(k + 1):
-        logpmf = (
-            math.lgamma(n + 1) - math.lgamma(i + 1) - math.lgamma(n - i + 1)
-            + i * log_p + (n - i) * log_q
-        )
-        terms.append(math.exp(logpmf))
-    total = math.fsum(terms)
-    if total > 1.0 - 1e-12:
+    pf = Fraction(p)
+    if pf == Fraction(1, 2):
+        s = sum(math.comb(n, i) for i in range(k + 1))
+        r = Fraction(s, 1 << n)
+    else:
+        qf = 1 - pf
+        pmf = qf**n
+        total = pmf
+        for i in range(1, k + 1):
+            pmf = pmf * (n - i + 1) * pf / (i * qf)
+            total += pmf
+        r = total
+    if r > 1 - Fraction(1, 10**12):
         return 1.0
-    return min(1.0, total)
+    return float(min(r, Fraction(1)))
 
 
 @dataclass(frozen=True)

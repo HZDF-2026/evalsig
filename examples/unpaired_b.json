@@ -1,0 +1,652 @@
+[
+ {
+  "task": "-b000",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b001",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b002",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b003",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b004",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b005",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b006",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b007",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b008",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b009",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b010",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b011",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b012",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b013",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b014",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b015",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b016",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b017",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b018",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b019",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b020",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b021",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b022",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b023",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b024",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b025",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b026",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b027",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b028",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b029",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b030",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b031",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b032",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b033",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b034",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b035",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b036",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b037",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b038",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b039",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b040",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b041",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b042",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b043",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b044",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b045",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b046",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b047",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b048",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b049",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b050",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b051",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b052",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b053",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b054",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b055",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b056",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b057",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b058",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b059",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b060",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b061",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b062",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b063",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b064",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b065",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b066",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b067",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b068",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b069",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b070",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b071",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b072",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b073",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b074",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b075",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b076",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b077",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b078",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b079",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b080",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b081",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b082",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b083",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b084",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b085",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b086",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b087",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b088",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b089",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b090",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b091",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b092",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b093",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b094",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b095",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b096",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b097",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b098",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b099",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b100",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b101",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b102",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b103",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b104",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b105",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b106",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b107",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b108",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b109",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b110",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b111",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b112",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b113",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b114",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b115",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b116",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b117",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b118",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b119",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b120",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b121",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b122",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b123",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b124",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b125",
+  "success": 1,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b126",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b127",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b128",
+  "success": 0,
+  "version": "unpaired-B"
+ },
+ {
+  "task": "-b129",
+  "success": 1,
+  "version": "unpaired-B"
+ }
+]

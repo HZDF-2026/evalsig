@@ -113,7 +113,11 @@ def compare(
     est = est_a - est_b
 
     if paired:
-        diffs = [mean(ta[t]) - mean(tb[t]) for t in overlap]
+        # sorted() makes the diffs sequence independent of set iteration
+        # order, which Python hash randomization otherwise varies per
+        # process — the bootstrap CI is a deterministic function of this
+        # sequence, so the ordering must be canonical, not incidental.
+        diffs = [mean(ta[t]) - mean(tb[t]) for t in sorted(overlap)]
         ci = cluster_bootstrap_ci([[d] for d in diffs], B=2000, alpha=alpha, seed=1)
         if binary:
             b = sum(1 for t in overlap if mean(ta[t]) > mean(tb[t]))
