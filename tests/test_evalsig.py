@@ -222,6 +222,14 @@ class TestSequential(unittest.TestCase):
         with self.assertRaises(ValueError):
             seq.update(5, 10)
 
+    def test_zero_n_rejected(self):
+        with self.assertRaises(ValueError):
+            two_proportion_test(0, 0, 5, 10)
+        with self.assertRaises(ValueError):
+            two_proportion_test(5, 10, 0, 0)
+        with self.assertRaises(ValueError):
+            SequentialProportion().update(0, 0)
+
     def test_ab_confirms(self):
         ab = SequentialAB()
         v = ab.update(90, 100, 40, 100)

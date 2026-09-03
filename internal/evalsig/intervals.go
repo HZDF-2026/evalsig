@@ -146,6 +146,9 @@ func TwoProportionTest(s1, n1, s2, n2 int, alpha float64) TwoPropResult {
 		if sc.s < 0 || sc.s > sc.n {
 			panic(fmt.Sprintf("successes must be in [0, n], got %d/%d", sc.s, sc.n))
 		}
+		if sc.n < 1 {
+			panic(fmt.Sprintf("n must be >= 1, got %d", sc.n))
+		}
 	}
 	p1 := float64(s1) / float64(n1)
 	p2 := float64(s2) / float64(n2)

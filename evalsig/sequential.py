@@ -76,6 +76,8 @@ class SequentialProportion:
     def update(self, successes: int, n: int) -> Verdict:
         if n < self.n or successes < 0 or successes > n:
             raise ValueError(f"non-monotone update: ({successes},{n}) after ({self.successes},{self.n})")
+        if n < 1:
+            raise ValueError(f"n must be >= 1, got {n}")
         self.successes, self.n = successes, n
         if self.verdict != "CONTINUE":
             return self.verdict

@@ -797,6 +797,32 @@ func TestClusterBootstrapAllEmptyResamplePanics(t *testing.T) {
 	ClusterBootstrapCI(clusters, nil, 4, 0.05, 0)
 }
 
+// The Python reference raises ValueError("n must be >= 1, ...") on zero sample
+// size; the Go port panics with the same message instead of dividing to NaN.
+func TestZeroNPanics(t *testing.T) {
+	for _, tc := range []struct {
+		name string
+		fn   func()
+	}{
+		{"two_proportion n1=0", func() { TwoProportionTest(0, 0, 5, 10, 0.05) }},
+		{"two_proportion n2=0", func() { TwoProportionTest(5, 10, 0, 0, 0.05) }},
+		{"sequential update n=0", func() { NewSequentialProportion(0.05, 0.05).Update(0, 0) }},
+	} {
+		t.Run(tc.name, func(t *testing.T) {
+			defer func() {
+				r := recover()
+				if r == nil {
+					t.Fatalf("expected panic, got none")
+				}
+				if msg, ok := r.(string); ok && msg != "n must be >= 1, got 0" {
+					t.Fatalf("panic message: got %q, want %q", msg, "n must be >= 1, got 0")
+				}
+			}()
+			tc.fn()
+		})
+	}
+}
+
 func mustDecode(t *testing.T, raws []json.RawMessage, dst interface{}) {
 	t.Helper()
 	if err := json.Unmarshal(mustJoin(raws), dst); err != nil {

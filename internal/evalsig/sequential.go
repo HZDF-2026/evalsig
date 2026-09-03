@@ -8,7 +8,10 @@
 // inflate type-I error at all. This module implements both, conservatively.
 package evalsig
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 // LookSchedule is a pre-registered doubling look schedule with Bonferroni
 // alpha spending. Checks happen only at n = n0, 2*n0, 4*n0, ... up to
@@ -76,6 +79,9 @@ func NewSequentialProportion(alpha, targetHalfWidth float64) *SequentialProporti
 func (s *SequentialProportion) Update(successes, n int) string {
 	if n < s.N || successes < 0 || successes > n {
 		panic("non-monotone update")
+	}
+	if n < 1 {
+		panic(fmt.Sprintf("n must be >= 1, got %d", n))
 	}
 	s.Successes, s.N = successes, n
 	if s.Verdict != "CONTINUE" {

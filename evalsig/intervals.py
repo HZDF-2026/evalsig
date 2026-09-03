@@ -143,6 +143,8 @@ def two_proportion_test(s1: int, n1: int, s2: int, n2: int, alpha: float = 0.05)
     for s, n in ((s1, n1), (s2, n2)):
         if not 0 <= s <= n:
             raise ValueError(f"successes must be in [0, n], got {s}/{n}")
+        if n < 1:
+            raise ValueError(f"n must be >= 1, got {n}")
     p1, p2 = s1 / n1, s2 / n2
     pooled = (s1 + s2) / (n1 + n2)
     se = math.sqrt(pooled * (1 - pooled) * (1 / n1 + 1 / n2))
