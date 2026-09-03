@@ -158,7 +158,10 @@ func pyPercent0(x float64) string {
 		f++
 	}
 	s := strconv.FormatFloat(f, 'f', -1, 64)
-	if f == 0 && math.Signbit(v) {
+	// Python prints "-0%" for negative zero and negative values that round to
+	// zero; FormatFloat already emits "-0" for negative zero, so guard against
+	// prepending a second minus.
+	if f == 0 && math.Signbit(v) && s[0] != '-' {
 		s = "-" + s
 	}
 	return s + "%"

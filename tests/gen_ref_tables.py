@@ -314,7 +314,9 @@ table["fmt_pct"] = {"mode": "text", "cases": [
     for x in (0.05, 0.123, 0.0, 1.0, 0.999, 0.001, -0.5, 0.045, 0.155, 0.049,
               0.051, 0.995, 1.5, -0.04, 0.0001,
               # exact ties at x*100 half-integers (odd multiples of 1/64)
-              0.125, 0.375, 0.005, 0.015, 0.625, 0.875, -0.125, 0.245, 0.255)]}
+              0.125, 0.375, 0.005, 0.015, 0.625, 0.875, -0.125, 0.245, 0.255,
+              # negative values that round to zero: Python prints "-0%"
+              -0.0, -0.001, -0.0001, -5e-324)]}
 table["py_repr"] = {"mode": "text", "cases": [
     {"x": x, "want": repr(x)} for x in fmt_vals]}
 
