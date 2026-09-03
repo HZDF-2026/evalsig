@@ -2,3 +2,6 @@ __pycache__/
 _perf/
 dist/
 tests/tmp_random/
+cpp/build/
+cpp/*.o
+cpp/tmp_smoke*

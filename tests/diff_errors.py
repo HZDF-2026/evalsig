@@ -1,12 +1,12 @@
 """Differential test for CLI surface: help and usage-error paths.
 
-Compares stdout, stderr, and exit code of the Go binary against the Python
-reference for a battery of argparse edge cases: bare invocation, bad
+Compares stdout, stderr, and exit code of the Go and C++ binaries against the
+Python reference for a battery of argparse edge cases: bare invocation, bad
 subcommand, missing required args (positional and option), unrecognized
 arguments, invalid option values, help at both levels.
 
 Usage:  python tests/diff_errors.py
-Skips (exit 0) when the Go binary has not been built.
+Skips (exit 0) for a port whose binary has not been built.
 """
 
 from __future__ import annotations
@@ -17,7 +17,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-GO_BIN = ROOT / "dist" / "go" / ("evalsig.exe" if os.name == "nt" else "evalsig")
+EXE = "evalsig.exe" if os.name == "nt" else "evalsig"
+GO_BIN = ROOT / "dist" / "go" / EXE
+CPP_BIN = ROOT / "dist" / "cpp" / EXE
 
 CASES = [
     [],
@@ -70,36 +72,48 @@ def main() -> int:
     if not GO_BIN.exists():
         print(f"skip: {GO_BIN} not built")
         return 0
+    ports = [("go", GO_BIN)]
+    if CPP_BIN.exists():
+        ports.append(("cpp", CPP_BIN))
+    else:
+        print(f"skip: {CPP_BIN} not built")
     failures = 0
     for case in CASES:
         py = subprocess.run([sys.executable, "-m", "evalsig"] + case,
                             capture_output=True, text=True, cwd=ROOT)
-        go = subprocess.run([str(GO_BIN)] + case,
-                            capture_output=True, text=True, cwd=ROOT)
         label = " ".join(case) or "(bare)"
-        # Python's runtime errors are tracebacks; the Go port prints a clean
+        # Python's runtime errors are tracebacks; the ports print a clean
         # one-line error. Same exit code, different text — compare code only.
         py_err = "" if py.returncode == 1 else py.stderr
-        go_err = "" if go.returncode == 1 else go.stderr
-        if py.returncode == go.returncode and py.stdout == go.stdout and py_err == go_err:
+        port_outputs = []
+        for port_name, bin_path in ports:
+            r = subprocess.run([str(bin_path)] + case,
+                               capture_output=True, text=True, cwd=ROOT)
+            r_err = "" if r.returncode == 1 else r.stderr
+            port_outputs.append((port_name, r, r_err))
+        ok = True
+        for port_name, r, r_err in port_outputs:
+            if not (py.returncode == r.returncode and py.stdout == r.stdout and py_err == r_err):
+                ok = False
+                failures += 1
+                print(f"FAIL [{py.returncode} vs {r.returncode}] {label} ({port_name})")
+                if py.stdout != r.stdout:
+                    print("--- py stdout ---")
+                    print(repr(py.stdout[:2000]))
+                    print(f"--- {port_name} stdout ---")
+                    print(repr(r.stdout[:2000]))
+                if py_err != r_err:
+                    print("--- py stderr ---")
+                    print(repr(py_err[:2000]))
+                    print(f"--- {port_name} stderr ---")
+                    print(repr(r_err[:2000]))
+        if ok:
             print(f"ok   [{py.returncode}] {label}")
-        else:
-            failures += 1
-            print(f"FAIL [{py.returncode} vs {go.returncode}] {label}")
-            if py.stdout != go.stdout:
-                print("--- py stdout ---")
-                print(repr(py.stdout[:2000]))
-                print("--- go stdout ---")
-                print(repr(go.stdout[:2000]))
-            if py_err != go_err:
-                print("--- py stderr ---")
-                print(repr(py_err[:2000]))
-                print("--- go stderr ---")
-                print(repr(go_err[:2000]))
     if failures:
         print(f"\n{failures} mismatch(es)")
         return 1
-    print(f"\nall {len(CASES)} CLI surface cases match")
+    print(f"\nall {len(CASES)} CLI surface cases match "
+          f"(python vs {' + '.join(n for n, _ in ports)})")
     return 0
 
 

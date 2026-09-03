@@ -29,7 +29,8 @@ it is what your harness should call before it believes its own numbers.
 | `evalsig decide` | Rank N candidates, eliminate only the statistically worse ones (Holm-corrected) |
 | `evalsig seq` | Stop the run when the *numbers* justify stopping, not the budget |
 
-Zero dependencies. Python ≥ 3.9, stdlib only — or one static binary (pure Go).
+Zero dependencies. Python ≥ 3.9, stdlib only — or one static binary (pure Go),
+or the same CLI as C++17 sources compiled anywhere g++ or clang++ reaches.
 Deterministic given seeds.
 
 ## Install
@@ -249,6 +250,34 @@ Both implementations make the same design decisions: exact-integer bootstrap
 resampling, insertion-ordered JSON, seeded MT19937, sorted canonical order
 wherever set iteration would otherwise leak hash randomization.
 
+## The C++ port
+
+`cpp/` is the same idea one level deeper: the full CLI as dependency-free
+C++17 sources — no external libraries, no codegen — for environments where
+neither an interpreter nor a Go toolchain exists: embedded build chains,
+vendor tooling that already ships a C++ compiler, research code that wants
+the statistics layer linked in rather than shelled out to.
+
+```bash
+cd cpp && make        # -> ../dist/cpp/evalsig
+make test             # golden-table validation, 21 sections
+```
+
+It is validated exactly like the Go port — same frozen reference table, same
+tolerance model — plus one implementation note worth recording: the exact
+rational arithmetic does **not** normalize fractions the way Go's `big.Rat`
+does. An unreduced `a/b · c/d` accumulator lets denominators grow
+exponentially in the binomial CDF loop (the C++ port hangs on n=300 where
+Go finishes in milliseconds), so the hot paths work over a common
+power-of-two denominator as exact integers instead: the CDF is one integer
+numerator over `2^(e·n)`, the mean/stdev are integer sums over one shared
+scale. Same real numbers, one correctly-rounded conversion at the end, and
+the sizes stay polynomial.
+
+The differential CLI suites (`tests/diff_errors.py`, `tests/diff_random.py`)
+run every case against **all three** implementations when the binaries are
+built, requiring identical stdout, stderr, and exit codes.
+
 ## Performance
 
 The bootstrap hot path (every `compare`/`decide` call) uses exact integer
@@ -274,11 +303,12 @@ fall back to the generic path with unchanged behavior.
   form vs quadratic roots).
 - Seeded end-to-end examples with known ground-truth effects (see
   `examples/make_examples.py`).
-- Cross-implementation differential validation for the Go port: the frozen
-  ~2,300-case reference table replayed with bit-for-bit equality on all
+- Cross-implementation differential validation for the Go and C++ ports: the
+  frozen ~2,300-case reference table replayed with bit-for-bit equality on all
   pure-arithmetic sections (`tests/refdata/core.json`, see
-  [The Go port](#the-go-port)), plus 43 + 163 differential CLI cases comparing
-  stdout, stderr, and exit codes between the two implementations.
+  [The Go port](#the-go-port) and [The C++ port](#the-c-port)), plus
+  43 + 163 differential CLI cases comparing stdout, stderr, and exit codes
+  across all three implementations.
 
 ## Roadmap
 

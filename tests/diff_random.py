@@ -5,16 +5,16 @@ script generates seeded random run sets — varying outcome kind (binary/score),
 task counts, per-task multiplicities, factor fields and value types, extreme
 outcomes, and task-id overlap ratios around the paired/unpaired detection
 threshold — then replays report / check / compare / decide / seq / plan through
-both the Python reference and the Go port, requiring byte-identical stdout and
-identical exit codes. Runtime errors (exit 1) are compared by code only:
-Python prints a traceback, the Go port a clean one-line error.
+the Python reference and the Go and C++ ports, requiring byte-identical
+stdout and identical exit codes. Runtime errors (exit 1) are compared by code
+only: Python prints a traceback, the ports a clean one-line error.
 
 The Python side is deterministic across processes (every set iteration goes
 through sorted(); every dict iteration is insertion order), so no PYTHONHASHSEED
 pinning is needed.
 
 Usage:  python tests/diff_random.py
-Skips (exit 0) when the Go binary has not been built.
+Skips (exit 0) for a port whose binary has not been built.
 """
 
 from __future__ import annotations
@@ -30,7 +30,9 @@ from pathlib import Path
 from statistics import mean
 
 ROOT = Path(__file__).resolve().parents[1]
-GO_BIN = ROOT / "dist" / "go" / ("evalsig.exe" if os.name == "nt" else "evalsig")
+EXE = "evalsig.exe" if os.name == "nt" else "evalsig"
+GO_BIN = ROOT / "dist" / "go" / EXE
+CPP_BIN = ROOT / "dist" / "cpp" / EXE
 TMP = ROOT / "tests" / "tmp_random"
 
 OUTCOME_KEYS = ("success", "resolved", "passed", "score", "value", "outcome")
@@ -309,6 +311,11 @@ def main() -> int:
     if not GO_BIN.exists():
         print(f"skip: {GO_BIN} not built")
         return 0
+    ports = [("go", GO_BIN)]
+    if CPP_BIN.exists():
+        ports.append(("cpp", CPP_BIN))
+    else:
+        print(f"skip: {CPP_BIN} not built")
     rng = random.Random(20260831)
     shutil.rmtree(TMP, ignore_errors=True)
     TMP.mkdir(parents=True)
@@ -319,31 +326,37 @@ def main() -> int:
         label = " ".join(case)
         py = subprocess.run([sys.executable, "-m", "evalsig"] + case,
                             capture_output=True, text=True, cwd=ROOT)
-        go = subprocess.run([str(GO_BIN)] + case,
-                            capture_output=True, text=True, cwd=ROOT)
         py_err = "" if py.returncode == 1 else py.stderr
-        go_err = "" if go.returncode == 1 else go.stderr
-        if py.returncode == go.returncode and py_err == go_err and p_tolerant_match(py.stdout, go.stdout):
-            if py.stdout != go.stdout:
+        ok = True
+        for port_name, bin_path in ports:
+            r = subprocess.run([str(bin_path)] + case,
+                               capture_output=True, text=True, cwd=ROOT)
+            r_err = "" if r.returncode == 1 else r.stderr
+            if not (py.returncode == r.returncode and py_err == r_err and
+                    p_tolerant_match(py.stdout, r.stdout)):
+                ok = False
+                failures += 1
+                print(f"FAIL #{idx} [{py.returncode} vs {r.returncode}] {label} ({port_name})")
+                if py.stdout != r.stdout:
+                    print("--- py stdout ---")
+                    print(repr(py.stdout[:3000]))
+                    print(f"--- {port_name} stdout ---")
+                    print(repr(r.stdout[:3000]))
+                if py_err != r_err:
+                    print("--- py stderr ---")
+                    print(repr(py_err[:1500]))
+                    print(f"--- {port_name} stderr ---")
+                    print(repr(r_err[:1500]))
+            elif py.stdout != r.stdout:
                 tol_hits += 1
+        if ok:
             continue
-        failures += 1
-        print(f"FAIL #{idx} [{py.returncode} vs {go.returncode}] {label}")
-        if py.stdout != go.stdout:
-            print("--- py stdout ---")
-            print(repr(py.stdout[:3000]))
-            print("--- go stdout ---")
-            print(repr(go.stdout[:3000]))
-        if py_err != go_err:
-            print("--- py stderr ---")
-            print(repr(py_err[:1500]))
-            print("--- go stderr ---")
-            print(repr(go_err[:1500]))
     if failures:
         print(f"\n{failures} of {len(cmds)} randomized cases mismatch")
         return 1
     note = f" ({tol_hits} within p-value libm tolerance)" if tol_hits else ""
-    print(f"all {len(cmds)} randomized CLI cases match{note}")
+    print(f"all {len(cmds)} randomized CLI cases match "
+          f"(python vs {' + '.join(n for n, _ in ports)}){note}")
     return 0
 
 
