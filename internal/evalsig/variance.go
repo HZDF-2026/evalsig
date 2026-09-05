@@ -76,7 +76,7 @@ func VarianceComponentsOf(groups []*group) VarianceComponents {
 		m := exactMean(g.vals)
 		d := m - grand
 		sq := d * d
-		ssb += float64(len(g.vals)) * sq
+		ssb += pyMul(float64(len(g.vals)), sq)
 	}
 	msb := ssb / float64(a-1)
 	msw := mWithin(cleaned, N, a)

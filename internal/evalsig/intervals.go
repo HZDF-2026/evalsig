@@ -53,7 +53,7 @@ func WilsonInterval(successes, n int, alpha float64) Interval {
 		panic(fmt.Sprintf("successes must be in [0, n], got %d/%d", successes, n))
 	}
 	z := zTwoSided(alpha)
-	z2 := z * z
+	z2 := pyMul(z, z)
 	p := float64(successes) / float64(n)
 	denom := 1 + z2/float64(n)
 	center := (p + z2/(2*float64(n))) / denom
@@ -77,7 +77,7 @@ func WilsonIntervalRoots(successes, n int, alpha float64) Interval {
 		panic(fmt.Sprintf("successes must be in [0, n], got %d/%d", successes, n))
 	}
 	z := zTwoSided(alpha)
-	z2 := z * z
+	z2 := pyMul(z, z)
 	p := float64(successes) / float64(n)
 	a := float64(n) + z2
 	b := -(pyMul(2*float64(n), p) + z2)
@@ -116,8 +116,8 @@ func NewcombeDiffInterval(p1 float64, n1 int, p2 float64, n2 int, alpha float64)
 	w1 := WilsonInterval(s1, n1, alpha)
 	w2 := WilsonInterval(s2, n2, alpha)
 	d := p1 - p2
-	lower := d - math.Sqrt((p1-w1.Low)*(p1-w1.Low)+(w2.High-p2)*(w2.High-p2))
-	upper := d + math.Sqrt((w1.High-p1)*(w1.High-p1)+(p2-w2.Low)*(p2-w2.Low))
+	lower := d - math.Sqrt(pyMul(p1-w1.Low, p1-w1.Low)+pyMul(w2.High-p2, w2.High-p2))
+	upper := d + math.Sqrt(pyMul(w1.High-p1, w1.High-p1)+pyMul(p2-w2.Low, p2-w2.Low))
 	return Interval{
 		Low:   math.Max(-1.0, lower),
 		High:  math.Min(1.0, upper),
@@ -283,7 +283,7 @@ func McNemarExact(b, c int, alpha float64) McNemarResult {
 	if varD < 0 {
 		varD = 0.0
 	}
-	half := zTwoSided(alpha) * math.Sqrt(varD)
+	half := pyMul(zTwoSided(alpha), math.Sqrt(varD))
 	return McNemarResult{
 		B:      b,
 		C:      c,
