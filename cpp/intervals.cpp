@@ -9,6 +9,7 @@
 #include <string>
 
 #include "pynum.h"
+#include <utility>
 
 namespace evalsig {
 

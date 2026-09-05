@@ -37,6 +37,9 @@
 #include "pyjson.h"
 #include "sequential.h"
 #include "variance.h"
+#include <stdexcept>
+#include <cfloat>
+#include <tuple>
 
 using namespace evalsig;
 

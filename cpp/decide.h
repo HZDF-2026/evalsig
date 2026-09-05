@@ -13,6 +13,7 @@
 
 #include "intervals.h"
 #include "pyjson.h"
+#include <stdexcept>
 
 namespace evalsig {
 

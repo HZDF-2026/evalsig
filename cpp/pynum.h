@@ -13,6 +13,7 @@
 #include <cstdint>
 #include <string>
 #include <vector>
+#include <stdexcept>
 
 namespace evalsig {
 

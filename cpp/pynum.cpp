@@ -10,6 +10,8 @@
 #include <cstdlib>
 #include <cstring>
 #include <stdexcept>
+#include <cfloat>
+#include <utility>
 
 namespace evalsig {
 
