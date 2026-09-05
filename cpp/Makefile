@@ -12,6 +12,12 @@
 CXX ?= g++
 CXXSTD ?= -std=c++17
 WARN ?= -Wall -Wextra -O2
+# The golden tables are bit-exact with CPython, which rounds x*y and x+z
+# separately. clang (notably on arm64) contracts a*b+c into fma by default and
+# flips the last bit; g++ on x86-64 happens not to, but pass the flag anyway
+# so every toolchain keeps the same non-fused semantics.
+FPMATH := -ffp-contract=off
+CXXFLAGS := $(CXXSTD) $(WARN) $(FPMATH)
 BUILD := build
 DIST := ../dist/cpp
 
@@ -40,19 +46,19 @@ endif
 all: $(BIN)
 
 $(BIN): $(OBJS) | $(DIST)
-	$(CXX) $(CXXSTD) $(WARN) -o $@ $^
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
 $(DIST) $(BUILD):
 	-$(MD) $(call FIXPATH,$@)
 
 $(BUILD)/%.o: %.cpp | $(BUILD)
-	$(CXX) $(CXXSTD) $(WARN) -c -o $@ $<
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
 test: $(BIN) $(TEST_BIN)
 	$(TEST_BIN)
 
 $(TEST_BIN): test_refdata.cpp $(LIB_OBJS) | $(BUILD)
-	$(CXX) $(CXXSTD) $(WARN) -o $@ $^
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean:
 	-$(RMRF) $(call FIXPATH,$(BUILD))

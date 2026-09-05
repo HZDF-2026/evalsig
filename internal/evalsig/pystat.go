@@ -151,7 +151,7 @@ func pyFormatF(x float64, prec int) string {
 // pyPercent0 is Python's format(x, '.0%'): x*100 rounded to an integer with
 // round-half-even, then '%'.
 func pyPercent0(x float64) string {
-	v := x * 100
+	v := pyMul(x, 100)
 	f := math.Floor(v)
 	d := v - f
 	if d > 0.5 || (d == 0.5 && math.Mod(f, 2) != 0) {

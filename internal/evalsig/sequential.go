@@ -102,7 +102,7 @@ func (s *SequentialProportion) Update(successes, n int) string {
 		if float64(n)*pHat*(1-pHat) > 0 {
 			se := math.Sqrt(pHat * (1 - pHat) / float64(n))
 			z := (pHat - s.Reference) / se
-			pVal := 2 * (1 - normCDF(math.Abs(z)))
+			pVal := pyMul(2, 1-normCDF(math.Abs(z)))
 			if pVal < alphaLook {
 				s.Verdict = "CONFIRMED"
 				return s.Verdict
@@ -194,7 +194,7 @@ func (s *SequentialAB) Update(s1, n1, s2, n2 int) string {
 		se := math.Sqrt(pooled * (1 - pooled) * (1/float64(n1) + 1/float64(n2)))
 		if se > 0 {
 			z := (p1 - p2) / se
-			pVal := 2 * (1 - normCDF(math.Abs(z)))
+			pVal := pyMul(2, 1-normCDF(math.Abs(z)))
 			if pVal < alphaLook {
 				s.Verdict = "CONFIRMED"
 				return s.Verdict

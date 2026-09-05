@@ -283,7 +283,7 @@ func diffBootstrap(ta, tb *taskGroups, alpha float64) Interval {
 	if loIdx < 0 {
 		loIdx = 0
 	}
-	hiIdx := int((1-alpha/2)*2000) - 1
+	hiIdx := int((1-pyMul(alpha, 0.5))*2000) - 1
 	if hiIdx > 1999 {
 		hiIdx = 1999
 	}

@@ -27,7 +27,7 @@ func NTwoProportions(p1, p2, alpha, power float64) PowerPlan {
 	zA := zTwoSided(alpha)
 	zB := normInvCDF(power)
 	pbar := (p1 + p2) / 2
-	num := (zA*math.Sqrt(2*pbar*(1-pbar)) + zB*math.Sqrt(p1*(1-p1)+p2*(1-p2))) 
+	num := pyMul(zA, math.Sqrt(2*pbar*(1-pbar))) + pyMul(zB, math.Sqrt(pyMul(p1, 1-p1)+pyMul(p2, 1-p2)))
 	num = num * num
 	n := int(math.Ceil(num / (delta * delta)))
 	if n < 1 {

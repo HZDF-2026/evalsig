@@ -114,7 +114,7 @@ func mWithin(groups []*group, N, a int) float64 {
 		inner := 0.0
 		for _, v := range g.vals {
 			d := v - m
-			inner += d * d
+			inner += pyMul(d, d)
 		}
 		ssw += inner
 	}

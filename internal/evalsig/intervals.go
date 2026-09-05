@@ -80,9 +80,9 @@ func WilsonIntervalRoots(successes, n int, alpha float64) Interval {
 	z2 := z * z
 	p := float64(successes) / float64(n)
 	a := float64(n) + z2
-	b := -(2*float64(n)*p + z2)
+	b := -(pyMul(2*float64(n), p) + z2)
 	c := float64(n) * p * p
-	disc := b*b - 4*a*c
+	disc := pyMul(b, b) - pyMul(4*a, c)
 	if disc < 0 { // cannot happen; guard for float safety
 		disc = 0.0
 	}
@@ -166,7 +166,7 @@ func TwoProportionTest(s1, n1, s2, n2 int, alpha float64) TwoPropResult {
 	} else {
 		z = (p1 - p2) / se
 	}
-	pValue := 2 * (1 - normCDF(math.Abs(z)))
+	pValue := pyMul(2, 1-normCDF(math.Abs(z)))
 	return TwoPropResult{
 		Diff:   p1 - p2,
 		CI:     NewcombeDiffInterval(p1, n1, p2, n2, alpha),
@@ -332,7 +332,7 @@ func percentileInterval(stats []float64, B int, alpha float64, method string) In
 	if loIdx < 0 {
 		loIdx = 0
 	}
-	hiIdx := int(math.Ceil((1-alpha/2)*float64(B))) - 1
+	hiIdx := int(math.Ceil((1-pyMul(alpha, 0.5))*float64(B))) - 1
 	if hiIdx > B-1 {
 		hiIdx = B - 1
 	}
